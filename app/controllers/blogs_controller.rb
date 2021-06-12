@@ -30,6 +30,7 @@ class BlogsController < ApplicationController
   end
   
   def destroy
+    
   end
 
 private
