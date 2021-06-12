@@ -1,6 +1,7 @@
 class BlogsController < ApplicationController
   
-  def show 
+  def show
+    @blog = Blog.find(params[:id])
   end
   
   def index
